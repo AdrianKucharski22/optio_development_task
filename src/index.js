@@ -22,8 +22,8 @@ root.render(
               </div>
               <div className={'equalAndCircle'}>
                   <div className={'equal flex'}>
-                      <div className={'firstLane lane'}></div>
-                      <div className={'secondLane lane'}></div>
+                      <div className={'lane'}></div>
+                      <div className={'lane'}></div>
                   </div>
                   <div className={'circleContainer flex'}>
                       <div className={'circle border'}>

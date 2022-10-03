@@ -42,6 +42,39 @@ main{
   transform: rotate(45deg);
   margin: 30px ;
 }
+.square:hover{
+  animation: square-to-circle 1s infinite alternate;
+}
+@keyframes square-to-circle {
+  0% {
+    border-radius: 0 0 0 0;
+    transform: rotate(0deg);
+  }
+  20% {
+    border-radius: 25% 25% 25% 25%;
+    transform: rotate(45deg);
+  }
+  40% {
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(90deg);
+  }
+  50% {
+    border-radius: 75% 75% 75% 75%;
+    transform: rotate(180deg);
+  }
+  60% {
+    border-radius: 100% 100% 100% 100%;
+    transform: rotate(360deg);
+  }
+  80%{
+    border-radius: 75% 75% 75% 75%;
+    transform: rotate(180deg);
+  }
+  100%{
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(90deg);
+  }
+}
 
 .firstSquare{
   height: 100%;
@@ -67,6 +100,21 @@ main{
   justify-content: space-around;
 }
 
+.equal:active{
+  animation: rotate 1s infinite alternate;
+}
+
+@keyframes rotate {
+  0%{
+    transform: rotate(20deg) translateX(-20px);
+  }
+  50%{
+    transform: rotate(60deg) translateX( 40px);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
 .lane{
   border: black 2px solid;
   height: 10px;
@@ -84,6 +132,27 @@ main{
   border-radius: 50%;
   background-color: darkcyan;
 }
+.circle:hover{
+  animation: left-right 2s infinite backwards;
+}
+
+@keyframes left-right {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-12px);
+  }
+  50% {
+    transform: translateX(180%);
+  }
+  75% {
+    transform: translateX(170%);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 
 .rectangle{
   margin: 20px 0 0 20px;
@@ -92,6 +161,28 @@ main{
   background-color: orangered;
   align-items: flex-start;
   justify-content: center;
+}
+
+.rectangle:hover{
+  animation: up-down 2s infinite backwards;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @media (min-width: 900px) {
