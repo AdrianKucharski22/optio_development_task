@@ -20,6 +20,7 @@ root.render(
                       </div>
                   </div>
               </div>
+
               <div className={'equalAndCircle'}>
                   <div className={'equal flex'}>
                       <div className={'lane'}></div>

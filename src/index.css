@@ -42,9 +42,11 @@ main{
   transform: rotate(45deg);
   margin: 30px ;
 }
+
 .square:hover{
   animation: square-to-circle 1s infinite alternate;
 }
+
 @keyframes square-to-circle {
   0% {
     border-radius: 0 0 0 0;
@@ -92,7 +94,7 @@ main{
   width: 200px;
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin: 20px 0 0 10%;
 }
 
 .equal{
@@ -115,6 +117,7 @@ main{
     transform: rotate(180deg);
   }
 }
+
 .lane{
   border: black 2px solid;
   height: 10px;
@@ -132,6 +135,7 @@ main{
   border-radius: 50%;
   background-color: darkcyan;
 }
+
 .circle:hover{
   animation: left-right 2s infinite backwards;
 }
@@ -192,7 +196,7 @@ main{
   }
 
   .squaresAndEAC{
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
