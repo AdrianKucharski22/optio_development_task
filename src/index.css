@@ -1,10 +1,86 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+#root{
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+}
+header{
+  background-color: olive;
+  height: 10%;
+  width: 100%;
+  border: black 4px solid;
+}
+main{
+  background-color: green;
+  height: 90%;
+  width: 100%;
+  border: black 2px solid;
+  display: flex;
+  justify-content: space-around;
+}
+.squares{
+  display: flex;
+  height: 300px;
+  width: 350px;
+}
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transform: rotate(45deg);
+  margin: 30px ;
+  border: black 2px solid;
+}
+.firstSquare{
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.secondSquare{
+  height: 100%;
+  display: flex;
+}
+.equalAndCircle{
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.equal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.lane{
+  border: black 2px solid;
+  height: 10px;
+  width: 100px;
+  background-color: blue;
+}
+.circleContainer{
+  display: flex;
+  align-items: center;
+}
+.circle{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: black 2px solid;
+  background-color: darkcyan;
+}
+.rectangle{
+  margin: 20px 0 0 20px;
+  width: 150px;
+  height: 300px;
+  background-color: orangered;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 code {

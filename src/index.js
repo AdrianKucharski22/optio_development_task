@@ -1,13 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <header>
+      </header>
+      <main>
+          <div className={'squaresAndEAC'}>
+              <div className={'squares'}>
+                  <div className={'firstSquare'}>
+                      <div className={' square'}>
+                      </div>
+                  </div>
+                  <div className={'secondSquare'}>
+                      <div className={'square'}>
+                      </div>
+                  </div>
+              </div>
+              <div className={'equalAndCircle'}>
+                  <div className={'equal'}>
+                      <div className={'firstLane lane'}></div>
+                      <div className={'secondLane lane'}></div>
+                  </div>
+                  <div className={'circleContainer'}>
+                      <div className={'circle'}>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div className={'rectangle'}>
+              <p>ABC</p>
+          </div>
+      </main>
   </React.StrictMode>
 );
 
