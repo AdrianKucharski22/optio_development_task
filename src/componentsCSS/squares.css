@@ -1,0 +1,22 @@
+.squares{
+    display: flex;
+    height: 300px;
+    width: 350px;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin: 30px;
+    border: black 2px solid;
+}
+.firstSquare{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.secondSquare{
+    height: 100%;
+    display: flex;
+}
