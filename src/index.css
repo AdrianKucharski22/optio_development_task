@@ -7,42 +7,53 @@ body{
   display: block;
   overflow: hidden;
 }
+.border{
+  border: black 2px solid;
+}
+.flex{
+  display: flex;
+}
+/*------------------------------>*/
+
 header{
   background-color: olive;
   height: 10%;
-  width: 100%;
   border: black 4px solid;
 }
+
 main{
   background-color: green;
   height: 90%;
-  width: 100%;
-  border: black 2px solid;
-  display: flex;
   justify-content: space-around;
 }
+
+/*--------------------------------->*/
+
 .squares{
   display: flex;
   height: 300px;
   width: 350px;
 }
+
 .square{
   width: 100px;
   height: 100px;
   background-color: red;
   transform: rotate(45deg);
   margin: 30px ;
-  border: black 2px solid;
 }
+
 .firstSquare{
   height: 100%;
   display: flex;
   align-items: flex-end;
 }
+
 .secondSquare{
   height: 100%;
   display: flex;
 }
+
 .equalAndCircle{
   height: 100px;
   width: 200px;
@@ -50,65 +61,68 @@ main{
   justify-content: space-around;
   margin-top: 20px;
 }
+
 .equal{
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 }
+
 .lane{
   border: black 2px solid;
   height: 10px;
   width: 100px;
   background-color: blue;
 }
+
 .circleContainer{
-  display: flex;
   align-items: center;
 }
+
 .circle{
   height: 70px;
   width: 70px;
   border-radius: 50%;
-  border: black 2px solid;
   background-color: darkcyan;
 }
+
 .rectangle{
   margin: 20px 0 0 20px;
   width: 150px;
   height: 300px;
   background-color: orangered;
-  display: flex;
   align-items: flex-start;
   justify-content: center;
 }
+
 @media (min-width: 900px) {
+
   header{
     border: black 6px solid;
   }
+
   .squaresAndEAC{
-    width: 900px;
+    width: 60%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
+
   .rectangle{
     background-color: white;
   }
-
 }
+
 @media (max-width: 583px) {
+
   header{
     border: 2px;
   }
+
   main {
     flex-direction: column;
   }
+
   .rectangle{
     background-color: blue;
   }
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
