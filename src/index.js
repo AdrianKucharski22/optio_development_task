@@ -12,7 +12,7 @@ root.render(
           <div className={'squaresAndEAC'}>
               <div className={'squares'}>
                   <div className={'firstSquare'}>
-                      <div className={' square border'}>
+                      <div className={'square border'}>
                       </div>
                   </div>
                   <div className={'secondSquare'}>

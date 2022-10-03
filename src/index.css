@@ -27,7 +27,7 @@ main{
   justify-content: space-around;
 }
 
-/*--------------------------------->*/
+/*--------------------------------->Squares*/
 
 .squares{
   display: flex;
@@ -88,6 +88,8 @@ main{
   height: 100%;
   display: flex;
 }
+
+/*---------------------------------------->EqualAndCircle*/
 
 .equalAndCircle{
   height: 100px;
@@ -158,6 +160,8 @@ main{
   }
 }
 
+/*---------------------------------------->Rectangle*/
+
 .rectangle{
   margin: 20px 0 0 20px;
   width: 150px;
@@ -188,6 +192,8 @@ main{
     transform: translateY(0px);
   }
 }
+
+/*---------------------------------------->Responsiveness*/
 
 @media (min-width: 900px) {
 

@@ -1,14 +1,22 @@
 ---------------------Room renovation--------------
-1.Establishing colors layout and action plan
-2.Checking how many materials will be needed
-2.Purchasing necessary thinks like paint,wallpapers, new furniture and tools
-3.Removing the old furniture from the room
-4.Tearing off the old floor
-4.Setting the floor, windows, heater and door protection
-5.Breaking old paint and wallpapers from the walls
-6.Preparing walls for re-painting
-7.Paint the walls and putting on new wallpapers
-8.Setting new floor
-9.Move in new furniture and setting it
-10.Arrange decorations
-
+1.Visualization of the room:
+    a)establishing:
+        -colors
+        -layout
+        -furniture
+        -decoration
+2.Renovation plan:
+    a)Calculation of the amount of materials needed to carry out the renovation
+    b)Purchasing necessary materials like paint, wallpapers, new furniture and tools
+    c)Removing the old furniture from the room
+    d)Tearing off the old floor
+    e)Setting windows, heater and door protection
+    f)Breaking old paint and wallpapers from the walls
+    g)Preparing walls for re-painting
+    h)Paint the walls and putting on new wallpapers
+    i)Setting new floor
+    j)Cleaning not used materials
+3.Arrange room:
+    a)Move in new furniture and setting it
+    b)Setting decorations
+    c)Last cleaning
